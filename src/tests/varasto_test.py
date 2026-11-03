@@ -60,6 +60,7 @@ class TestVarasto(unittest.TestCase):
 
         self.assertAlmostEqual(self.varasto.saldo, ennen_lisaysta)
 
+    #Tämä on kommentti
     def test_lisaa_varastoon_yli_sallittu_maara(self):
         self.varasto.lisaa_varastoon(50)
 
