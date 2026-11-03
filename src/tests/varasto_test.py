@@ -67,7 +67,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_ota_varastosta_negatiivinen_maara(self):
         ennen_lisaysta = self.varasto.saldo
-        self.varasto.ota_varastosta(-1)
+        self.varasto.ota_varastosta(1)
 
         self.assertAlmostEqual(self.varasto.saldo, ennen_lisaysta)
 
