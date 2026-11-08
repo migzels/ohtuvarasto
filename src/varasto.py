@@ -18,6 +18,7 @@ class Varasto:
 
     # huom: ominaisuus voidaan myös laskea.
     # Ei tarvita erillistä kenttää viela_tilaa tms.
+    # Tämä on tosi pitkä kommentti!Tämä on tosi pitkä kommentti!Tämä on tosi pitkä kommentti!
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo
 
